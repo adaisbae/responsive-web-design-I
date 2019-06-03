@@ -119,6 +119,14 @@ header .logo {
   padding: 0px 75px;
 }
 
+@media (max-width: 800px) {
+    .cta .cta-text {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+}
+
 .cta .cta-text button {
   background: white;
   vertical-align: top;
@@ -127,6 +135,13 @@ header .logo {
   font-size: 17px;
   border: 1px solid black;
   cursor: pointer;
+}
+
+@media (max-width: 800px) {
+    .cta .cta-text button{
+        max-width: 30%;
+       margin: auto;
+    }
 }
 
 .cta .cta-text button:hover {
