@@ -154,7 +154,6 @@ header .logo {
       font-size: 20px;
       text-align: center;
     }
-    
 }
 
 /* cta */
@@ -198,7 +197,7 @@ header .logo {
 
     .cta .cta-text button{
         max-width: 30%;
-       margin: auto;
+        margin: auto;
     }
 
     .cta img {
@@ -206,7 +205,11 @@ header .logo {
     }
 }
 
-
+/* media queries for mobile */
+@media (max-width: 500px) {
+    .cta .cta-text {
+      margin-top: 60px;
+    }
 
 .main-content {
   border-top: 1px solid black;
