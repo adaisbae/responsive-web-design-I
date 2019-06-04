@@ -73,7 +73,6 @@ h1, h2, h3, h4, h5 {
   width: 880px;
   /* TB LR */
   margin: 0 auto;
-  border: 1px dashed red;
 }
 
 /* header */
@@ -217,6 +216,7 @@ header .logo {
       box-sizing: border-box;
       padding: 10px;
   }
+}
 
 
 .main-content {
@@ -312,6 +312,7 @@ header .logo {
 
     .main-content .bottom-content .text-content {
       width: 100%;
+      margin-bottom: 40px;
   }
 }
 
@@ -323,6 +324,13 @@ header .logo {
 
 .contact p {
   margin: 20px 0;
+}
+
+/* media queries for mobile */
+@media (max-width: 500px) {
+    .contact {
+      margin-top: 15px;
+    }
 }
 
 footer {
