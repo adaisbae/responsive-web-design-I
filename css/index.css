@@ -211,6 +211,14 @@ header .logo {
       margin-top: 60px;
     }
 
+    .cta .cta-text button {
+      max-width: 60%;
+      margin: auto;
+      box-sizing: border-box;
+      padding: 10px;
+  }
+
+  
 .main-content {
   border-top: 1px solid black;
   margin-top: 76px;
