@@ -73,7 +73,7 @@ h1, h2, h3, h4, h5 {
   display: grid;
   margin: 0 auto;
   grid-template-columns: auto;
-  grid-template-rows: repeat(5, 1fr);
+  grid-template-rows: repeat(5, auto);
 
 }
 
@@ -140,4 +140,14 @@ header img {
 
 .main-content img{
   width: 100%;
+}
+
+.contact{
+  width: 100%;
+  margin: auto;
+  padding: 10px;
+}
+
+footer {
+  text-align: center;
 }
