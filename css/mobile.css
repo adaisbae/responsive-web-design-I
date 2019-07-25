@@ -70,14 +70,17 @@ h1, h2, h3, h4, h5 {
 }
 
 .container{
-  width: 100%;
+  display: grid;
   margin: 0 auto;
+  grid-template-rows: repeat(5, 1fr);
+  
 }
 
 header{
-  width: 100%;
+  width: 90%;
   display: flex;
   flex-direction: column-reverse;
+  margin: auto;
 }
 
 nav{
@@ -96,7 +99,74 @@ nav a {
   padding: 20px 0;
 }
 
-img {
-  width: 40%;
+nav a:last-child{
+  border-bottom: 1px solid gray;
+  margin-bottom: 50px;
+}
+
+header img {
   margin: auto;
 }
+
+/*
+.container{
+  width: 100%;
+  margin: 0 auto;
+}
+
+header{
+  width: 90%;
+  display: flex;
+  flex-direction: column-reverse;
+  margin: auto;
+}
+
+nav{
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
+}
+
+nav a {
+  width: 100%;
+  border-top: 1px solid gray;
+  text-align: center;
+  text-decoration: none;
+  font-size: 18px;
+  color: gray;
+  padding: 20px 0;
+}
+
+nav a:last-child{
+  border-bottom: 1px solid gray;
+  margin-bottom: 50px;
+}
+
+header img {
+  margin: auto;
+}
+
+.cta {
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  border-bottom: 2px solid black;
+}
+
+.cta-text {
+  font-size: 70px;
+  text-align: center;
+}
+
+.cta-text button {
+  font-size: 20px;
+  background-color: white;
+  padding: 10px 50px;
+  margin-bottom: 80px;
+}
+
+
+.cta img {
+  display: none;
+}
+*/
