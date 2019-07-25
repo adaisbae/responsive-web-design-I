@@ -64,7 +64,7 @@ html, body {
 }
 
 h1, h2, h3, h4, h5 {
-    font-family: 'Bangers', cursive;
+     font-family: 'Bangers', cursive;
     letter-spacing: 1px;
     margin-bottom: 15px;
 }
@@ -72,46 +72,9 @@ h1, h2, h3, h4, h5 {
 .container{
   display: grid;
   margin: 0 auto;
+  grid-template-columns: auto;
   grid-template-rows: repeat(5, 1fr);
-  
-}
 
-header{
-  width: 90%;
-  display: flex;
-  flex-direction: column-reverse;
-  margin: auto;
-}
-
-nav{
-  display: flex;
-  flex-direction: column;
-  margin-top: 20px;
-}
-
-nav a {
-  width: 100%;
-  border-top: 1px solid gray;
-  text-align: center;
-  text-decoration: none;
-  font-size: 18px;
-  color: gray;
-  padding: 20px 0;
-}
-
-nav a:last-child{
-  border-bottom: 1px solid gray;
-  margin-bottom: 50px;
-}
-
-header img {
-  margin: auto;
-}
-
-/*
-.container{
-  width: 100%;
-  margin: 0 auto;
 }
 
 header{
@@ -165,8 +128,16 @@ header img {
   margin-bottom: 80px;
 }
 
-
 .cta img {
   display: none;
 }
-*/
+
+.main-content{
+  width: 100%;
+  margin: auto;
+  padding: 10px;
+}
+
+.main-content img{
+  width: 100%;
+}
