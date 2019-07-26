@@ -112,7 +112,6 @@ header img {
 }
 
 .cta {
-  margin: auto;
   display: flex;
   justify-content: center;
   border-bottom: 2px solid black;
@@ -187,5 +186,20 @@ footer {
 
   nav a:last-child{
     border: none;
+  }
+
+  .top-content{
+    display: flex;
+    justify-content: space-evenly;
+  }
+
+  .bottom-content{
+    display: flex;
+    justify-content: space-evenly;
+
+  }
+
+  .text-content{
+    padding: 10px;
   }
 }
