@@ -69,6 +69,8 @@ h1, h2, h3, h4, h5 {
     margin-bottom: 15px;
 }
 
+/* mobile-first CSS */
+
 .container{
   display: grid;
   margin: 0 auto;
@@ -143,7 +145,7 @@ header img {
   margin-bottom: 30px;
 }
 
-.text-content:nth-last-child{
+.text-content:last-child{
   margin-bottom: 0;
 }
 
@@ -167,4 +169,23 @@ header img {
 
 footer {
   text-align: center;
+}
+
+/* media queries */
+
+/* tablet view */
+
+@media(min-width: 800px){
+  nav{
+    flex-direction: row;
+  }
+
+  nav a{
+    border: none;
+    font-size: 24px;
+  }
+
+  nav a:last-child{
+    border: none;
+  }
 }
